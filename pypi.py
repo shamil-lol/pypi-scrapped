@@ -16,10 +16,10 @@ def pypi_search (project):
     release_date = remove_white_spaces_from(s.find("time").text)
     pip_command = s.find(id = "pip-command").text
     fetched_details = f"""
-    name: ```{name}```
-    description: ```{description}```
-    released on: ```{release_date}```
-    installing command: ```{pip_command}```
+    name: {name}
+    description: {description}
+    released on: {release_date}
+    installing command: {pip_command}
     """
     return fetched_details
   except Exception:
