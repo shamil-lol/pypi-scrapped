@@ -43,5 +43,5 @@ try:
     print ()
   print (f"{b}{rr} {y}results{w}")
   print (f"{g}[{y}✓{g}] {b}Done{w}")
-except Exception as e:
+except:
   pass
