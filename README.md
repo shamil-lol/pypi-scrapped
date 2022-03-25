@@ -8,5 +8,6 @@ please give me a star if you like this 😫
 ```bash
 git clone https://github.com/shamil-lol/pypi-scrapped.git
 cd pypi-scrapped
+pip install -r requirements.txt
 python search.py
 ```
